@@ -1,0 +1,31 @@
+.Stacks {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    justify-items: center;
+  }
+  
+  /* Responsive layout - makes a one column layout instead of a two-column layout */
+  @media (max-width: 600px) {
+    .Stacks {
+      flex-direction: column;
+margin: 5px;
+
+    }
+  }
+  .Stacks1 {
+    
+    margin-left: 27%;
+    
+  }
+  
+  /* Responsive layout - makes a one column layout instead of a two-column layout */
+  @media (max-width: 600px) {
+    .Stacks1 {
+
+margin: 5px;
+
+
+    }
+  }
+  
