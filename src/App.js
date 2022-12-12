@@ -42,7 +42,7 @@ function App() {
     <Tools />
     <Calender />
     <Spacer ></Spacer>
-    <Stacks />
+    <Stacks  />
 
     <Contact />
     </Box>

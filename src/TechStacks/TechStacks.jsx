@@ -2,7 +2,7 @@
 import "./stacks.css"
 export const Stacks=()=>{
 
-    return <div style={{fontWeight:"bold"}}>
+    return <div style={{fontWeight:"bold"}} >
         <h1 style={{ margin:"5px",fontWeight:"150px" ,fontSize:"50px",color:"#00baf2" ,textAlign:"center"}}>My Statistics</h1>
         <div className="Stacks1">
         <img src="https://github-readme-streak-stats.herokuapp.com?user=Vishnu9651&theme=tokyonight_duo" />

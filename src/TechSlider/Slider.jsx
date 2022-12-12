@@ -15,7 +15,7 @@ const Slides=()=>{
         
       };
       return (
-        <div>
+        <div id="skill">
           <h1 style={{ margin:"5px",fontWeight:"bold" ,fontSize:"50px",color:"#00baf2" ,textAlign:"center"}}>Tech Stacks</h1>
           
           <Slider {...settings}>

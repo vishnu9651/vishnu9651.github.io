@@ -28,7 +28,7 @@ import {
               
               boxSize="100%"
               src={
-                'RentoPoster.png'
+                'vidfy.png'
               }
             />
           </Flex>
@@ -40,14 +40,14 @@ import {
             p={1}
             pt={2}>
             <Heading fontSize={'3xl'} fontFamily={'body'}>
-              Rentomojo clone
+              Vidfy
             </Heading>
            
             <Text
               textAlign={'center'}
               color={useColorModeValue('gray.700', 'gray.400')}
               px={3}>
-              RentoMojo is an online rental platform that provides furniture, appliances and electronics (mobiles, laptops) on a monthly rental basis.
+               Vidfy is OTT platform,Watch premieres of your favourite TV show episodes a day before telecast on vidfy & explore blockbuster movies, 100+ original content, music videos.
             </Text>
             <Stack align={'center'} justify={'center'} direction={'row'} mt={6}>
               <Badge
@@ -62,14 +62,14 @@ import {
                 py={1}
                 bg={useColorModeValue('gray.50', 'gray.800')}
                 fontWeight={'400'}>
-                #Javascript
+                #MongoDB
               </Badge>
               <Badge
                 px={2}
                 py={1}
                 bg={useColorModeValue('gray.50', 'gray.800')}
                 fontWeight={'400'}>
-                #Css
+                #NodeJS
               </Badge>
             </Stack>
   
@@ -80,7 +80,7 @@ import {
               padding={2}
               justifyContent={'space-around'}
               alignItems={'center'}>
-              <a href='https://github.com/vishnu9651/Rentomojo' target="_blank">
+              <a href='https://github.com/Pradyumancoder/ZEE5-CLONE' target="_blank">
               <Button
                 flex={1}
                 fontSize={'sm'}
@@ -91,7 +91,7 @@ import {
                 Code
               </Button>
               </a>
-              <a href='https://shimmering-cajeta-571cbe.netlify.app/' target="_blank">
+              <a href='https://zee5-pradyumancoder.vercel.app/' target="_blank">
               <Button
                 flex={1}
                 fontSize={'sm'}
