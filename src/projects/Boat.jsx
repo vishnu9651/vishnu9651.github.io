@@ -17,9 +17,9 @@ import {
         <Stack
           borderWidth="1px"
           borderRadius="lg"
-          w={{ sm: '100%', md: '540px' }}
-          height={{ sm: '476px', md: '20rem' }}
-          direction={{ base: 'column', md: 'row' }}
+          w={{ sm: '100%', md: '50%',lg:"80%",xl:"80%"}}
+          
+          direction={{ base: 'column', md: 'column',sm:"column",lg:"row",xl:"row"  }}
           bg={useColorModeValue('white', 'gray.900')}
           boxShadow={'2xl'}
           padding={4}>

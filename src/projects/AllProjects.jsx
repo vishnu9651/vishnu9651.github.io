@@ -9,7 +9,7 @@ function AllProjects(){
 
 
     return(
-        <SimpleGrid id="project" columns={[1, null, 2]} spacingX='40px' spacingY='80px'>
+        <SimpleGrid id="project" columns={[1,1, 1,2]} spacingX='40px'>
   <Box > <Rento /></Box>
   
   <Box ><Boat /></Box>

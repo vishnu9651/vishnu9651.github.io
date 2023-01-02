@@ -12,6 +12,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Contact from './components/Contact';
 import Tools from './ToolsUsed/Slider';
+import MyComponent from './Nametypewriter/NameTypewriter';
 
 const confetti = {
   light: {
@@ -37,6 +38,7 @@ function App() {
         }}>
     <Nav />
     <Home />
+    {/* <MyComponent /> */}
     <AllProjects />
     <Slides />
     <Tools />

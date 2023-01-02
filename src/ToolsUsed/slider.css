@@ -3,13 +3,10 @@
     
 }
 .tool1 img{
-    height: 50px; 
-    
+ 
+    border: 1px soid red;
 }
-.tool1 h3{
-    margin-left: -80px;
-    margin-top: 5px;
-}
+
 
 .tool1:hover{
     transform: translateZ(20px);
@@ -20,14 +17,14 @@
 
 margin-right: 25px;
 font-size: small;
-max-width: 190%;
+max-width: 100%;
 
     }
 
     .tool1 img{
-        max-width: 500%;
+        max-width: 100%;
         
-        height: 50px;
+        
         
 
         

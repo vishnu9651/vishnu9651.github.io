@@ -1,4 +1,4 @@
-
+import myresume from "../resume/Vishnu-Upadhyay-Resume.pdf"
 
 import {
   Box,
@@ -27,10 +27,13 @@ import {
 
 export default function WithSubnavigation() {
   const { isOpen, onToggle } = useDisclosure();
+  const handleResume=()=>{
+    window.open("https://drive.google.com/file/d/1QtrL5o--fayFeddkPjSKVdYYqzrwWiux/view?usp=share_link","_blank","noopener","noreferrer")
+  }
 
   return (
     <Box >
-    <Box style={{position:"fixed",width:"100%",zIndex:"100"}}>
+    <Box style={{position:"fixed",zIndex:"100"}} w={{sm:"100%",base:"100%",md:"100%" ,lg:"100%"}}  >
       <Flex 
         bg={useColorModeValue('white', 'gray.800')}
         color={useColorModeValue('gray.600', 'white')}
@@ -73,7 +76,11 @@ export default function WithSubnavigation() {
           justify={'flex-end'}
           direction={'row'}
           spacing={4}>
+          
+          <a href={myresume} onClick={handleResume} download target="_blank" rel="noopener noreferrer">
           <Button
+          onclick={()=>handleResume}
+            // href={'https://drive.google.com/file/d/1QtrL5o--fayFeddkPjSKVdYYqzrwWiux/view?usp=share_link'}
             as={'a'}
             color={'blue'}
             fontSize={'sm'}
@@ -81,9 +88,10 @@ export default function WithSubnavigation() {
 marginLeft={4}
             variant={'link'}
             download
-            href={'https://drive.google.com/file/d/1QtrL5o--fayFeddkPjSKVdYYqzrwWiux/view?usp=share_link'}>
+            >
             Resume
           </Button>
+          </a>
 
         </Stack>
       </Flex>
@@ -256,7 +264,8 @@ const NAV_ITEMS: Array<NavItem> = [
   },
   {
     label: 'Project',
-    href: '#project'
+    href: '#project',
+
   },
   {
     label: 'Skills',
