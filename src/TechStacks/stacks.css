@@ -1,31 +1,36 @@
 .Stacks {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    justify-items: center;
-  }
-  
-  /* Responsive layout - makes a one column layout instead of a two-column layout */
-  @media (max-width: 600px) {
-    .Stacks {
-      flex-direction: column;
-margin: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  justify-items: center;
+}
 
-    }
+/* Responsive layout - makes a one column layout instead of a two-column layout */
+@media (max-width: 640px) {
+  .Stacks {
+    flex-direction: column;
+
+
+  }
+}
+
+.Stacks1 {
+  display: flex;
+  justify-content: center;
+
+}
+
+/* Responsive layout - makes a one column layout instead of a two-column layout */
+@media all and (min-width:641px) and (max-width: 1007px) {
+  .Stacks {
+    flex-direction: column;
+    /* margin: auto; */
+    justify-content: center;
+
+    align-items: center;
   }
   .Stacks1 {
-    
-    margin-left: 27%;
-    
+    display: flex;
+    justify-content: center;
   }
-  
-  /* Responsive layout - makes a one column layout instead of a two-column layout */
-  @media (max-width: 600px) {
-    .Stacks1 {
-
-margin: 5px;
-
-
-    }
-  }
-  
+}

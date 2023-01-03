@@ -82,10 +82,11 @@ export default function WithSubnavigation() {
           onclick={()=>handleResume}
             // href={'https://drive.google.com/file/d/1QtrL5o--fayFeddkPjSKVdYYqzrwWiux/view?usp=share_link'}
             as={'a'}
-            color={'blue'}
+            color={'blue.400'}
             fontSize={'sm'}
             fontWeight={600}
-marginLeft={4}
+marginRight={"15px"}
+marginLeft={"15px"}
             variant={'link'}
             download
             >
@@ -263,13 +264,13 @@ const NAV_ITEMS: Array<NavItem> = [
     href: '#home'
   },
   {
-    label: 'Project',
+    label: 'Projects',
     href: '#project',
 
   },
   {
     label: 'Skills',
-    href: '#skill',
+    href: '#skills',
   },
 
   {

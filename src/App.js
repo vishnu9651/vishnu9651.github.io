@@ -37,11 +37,18 @@ function App() {
           backgroundAttachment: 'fixed',
         }}>
     <Nav />
+    <br />
+    
+    <Box marginTop={"30px"}  >
     <Home />
+    </Box>
+    
     {/* <MyComponent /> */}
     <AllProjects />
+   <Box id="skills">
     <Slides />
-    <Tools />
+    </Box>
+    {/* <Tools /> */}
     <Calender />
     <Spacer ></Spacer>
     <Stacks  />

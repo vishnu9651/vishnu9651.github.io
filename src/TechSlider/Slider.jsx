@@ -99,7 +99,7 @@ const Slides = () => {
     ]
   };
   return (
-    <div style={{width:"90%", margin:"auto", marginTop:"120px"}} id="skills">
+    <div style={{width:"100%", margin:"auto", marginTop:"120px"}} >
       <Heading fontSize={{ base: "22px",sm:"32px", md: "40px", lg: "48px" }} style={{ display: "flex", gap: "10px", justifyContent: "center", marginBottom: "50px" }}><Text color="blue.500">Technical Skills</Text></Heading>
       <Slider {...settings}>
         {
