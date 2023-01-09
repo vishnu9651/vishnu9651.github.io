@@ -6,7 +6,7 @@ import AllProjects from './projects/AllProjects';
 import { Calender } from './Github/GithubCalender';
 import GitHubCalendar from 'react-github-calendar';
 import { Stacks } from './TechStacks/TechStacks';
-import { Box, Spacer, useColorModeValue } from '@chakra-ui/react';
+import { Box, Heading, Spacer, Text, useColorModeValue } from '@chakra-ui/react';
 import Slides from './TechSlider/Slider';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -44,6 +44,7 @@ function App() {
     </Box>
     
     {/* <MyComponent /> */}
+    <Heading fontSize={{ base: "22px",sm:"32px", md: "40px", lg: "48px" }} style={{ display: "flex", gap: "10px", justifyContent: "center", marginBottom: "50px" }}><Text color="blue.500">My Projects</Text></Heading>
     <AllProjects />
    <Box id="skills">
     <Slides />
