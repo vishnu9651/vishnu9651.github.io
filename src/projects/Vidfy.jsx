@@ -11,7 +11,7 @@ import {
     useColorModeValue,
   } from '@chakra-ui/react';
   
-  export default function Rento() {
+  export default function Vidfy() {
     return (
       <Center py={6}>
         <Stack

@@ -11,7 +11,7 @@ import {
   useColorModeValue,
 } from '@chakra-ui/react';
 
-export default function Licious() {
+export default function Apple() {
   return (
     <Center py={6}>
       <Stack
@@ -25,12 +25,10 @@ export default function Licious() {
         padding={4}>
         <Flex flex={1} bg="blue.200">
           <Image
-             _hover={{
-              bg:"blue"
-            }}        
+            
             boxSize="100%"
             src={
-              'Licious.png'
+              'Apple.jpg'
             }
           />
         </Flex>
@@ -42,14 +40,14 @@ export default function Licious() {
           p={1}
           pt={2}>
           <Heading fontSize={'3xl'} fontFamily={'body'}>
-            Licious Clone
+            Apple Clone
           </Heading>
          
           <Text
             textAlign={'center'}
             color={useColorModeValue('gray.700', 'gray.400')}
             px={3}>
-             Licious is a Bengaluru-based meat and seafood brand. The company serves the best, fresh and clean fish, chicken, meat, and eggs online. Licious works on a farm to fork model owning the entire back-end supply chain and the cold chain. A separate recipe section is also present in their App. It helps the customers to cook delicious dishes. And also teaches the exotic chef style.
+             Apple Inc. (formerly Apple Computer Inc.) is an American computer and consumer electronics company famous for creating the iPhone, iPad and Macintosh computers. Apple is one of the largest companies globally with a market cap of over 2 trillion dollars.
           </Text>
           <Stack align={'center'} justify={'center'} direction={'row'} mt={6}>
             <Badge
@@ -57,21 +55,21 @@ export default function Licious() {
               py={1}
               bg={useColorModeValue('gray.50', 'gray.800')}
               fontWeight={'400'}>
-              #HTML
+              #React
             </Badge>
             <Badge
               px={2}
               py={1}
               bg={useColorModeValue('gray.50', 'gray.800')}
               fontWeight={'400'}>
-              #CSS
+              #MongoDB
             </Badge>
             <Badge
               px={2}
               py={1}
               bg={useColorModeValue('gray.50', 'gray.800')}
               fontWeight={'400'}>
-              #JAVASCRIPT
+              #NodeJS
             </Badge>
           </Stack>
 
@@ -82,7 +80,7 @@ export default function Licious() {
             padding={2}
             justifyContent={'space-around'}
             alignItems={'center'}>
-            <a href='https://github.com/vishnu9651/lucious' target="_blank">
+            <a href='https://github.com/sujeetcoder/abstracted-wren-623' target="_blank">
             <Button
               flex={1}
               fontSize={'sm'}
@@ -93,7 +91,7 @@ export default function Licious() {
               Code
             </Button>
             </a>
-            <a href='https://tiny-alpaca-6357a7.netlify.app/index.html' target="_blank">
+            <a href='https://apple0.netlify.app/' target="_blank">
             <Button
               flex={1}
               fontSize={'sm'}
@@ -120,6 +118,7 @@ export default function Licious() {
 }
 
 
+
 // import {
 //     Badge,
 //     Button,
@@ -133,7 +132,7 @@ export default function Licious() {
 //     useColorModeValue,
 //   } from '@chakra-ui/react';
   
-//   export default function Licious() {
+//   export default function Expedia() {
 //     return (
 //       <Center py={6}>
 //         <Stack
@@ -147,10 +146,10 @@ export default function Licious() {
 //           padding={4}>
 //           <Flex flex={1} bg="blue.200">
 //             <Image
-//               objectFit="cover"
+              
 //               boxSize="100%"
 //               src={
-//                 'LiciousPoster.png'
+//                 'ExpediaClone.png'
 //               }
 //             />
 //           </Flex>
@@ -162,15 +161,14 @@ export default function Licious() {
 //             p={1}
 //             pt={2}>
 //             <Heading fontSize={'3xl'} fontFamily={'body'}>
-//               Lecious Clone
+//               Expedia Clone
 //             </Heading>
             
 //             <Text
 //               textAlign={'center'}
 //               color={useColorModeValue('gray.700', 'gray.400')}
 //               px={3}>
-//               Licious is a Bengaluru-based meat and seafood brand. The company serves the best, fresh and clean fish, chicken, meat, and eggs online.
-              
+//                 
 //             </Text>
 //             <Stack align={'center'} justify={'center'} direction={'row'} mt={6}>
 //               <Badge
@@ -185,14 +183,14 @@ export default function Licious() {
 //                 py={1}
 //                 bg={useColorModeValue('gray.50', 'gray.800')}
 //                 fontWeight={'400'}>
-//                 #Html
+//                 #html
 //               </Badge>
 //               <Badge
 //                 px={2}
 //                 py={1}
 //                 bg={useColorModeValue('gray.50', 'gray.800')}
 //                 fontWeight={'400'}>
-//                 #CSS
+//                 #Css
 //               </Badge>
 //             </Stack>
   
@@ -203,8 +201,8 @@ export default function Licious() {
 //               padding={2}
 //               justifyContent={'space-around'}
 //               alignItems={'center'}>
-
-// <a href='https://github.com/vishnu9651/lucious' target="_blank">
+//               <a href='https://github.com/vishnu9651/Expedia-clone' 
+//               target="_blank">
 //               <Button
 //                 flex={1}
 //                 fontSize={'sm'}
@@ -215,7 +213,7 @@ export default function Licious() {
 //                 Code
 //               </Button>
 //               </a>
-//               <a href='https://tiny-alpaca-6357a7.netlify.app/index.html' target="_blank">
+//               <a href='https://expedia-travels-clone.netlify.app/' target="_blank">
 //               <Button
 //                 flex={1}
 //                 fontSize={'sm'}

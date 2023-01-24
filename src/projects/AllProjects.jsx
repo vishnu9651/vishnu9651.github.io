@@ -1,8 +1,8 @@
 import { Box, Flex, SimpleGrid } from "@chakra-ui/react";
-import Boat from "./Boat";
 import Expedia from "./Expedia";
+import Apple from "./Apple";
 import Licious from "./Licious";
-import Rento from "./Rento";
+import Vidfy from "./Vidfy";
 function AllProjects(){
 
 
@@ -10,9 +10,9 @@ function AllProjects(){
 
     return(
         <SimpleGrid id="project" columns={[1,1, 1,1]} spacingX='40px'>
-  <Box > <Rento /></Box>
   
-  <Box ><Boat /></Box>
+  <Box > <Vidfy /></Box>
+  <Box ><Apple /></Box>
   <Box ><Expedia /></Box>
   <Box ><Licious /></Box>
   
