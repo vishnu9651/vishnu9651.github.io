@@ -56,21 +56,21 @@ export default function Vidfy() {
               py={1}
               bg={useColorModeValue('gray.50', 'gray.800')}
               fontWeight={'400'}>
-              #React
+              #HTML
             </Badge>
             <Badge
               px={2}
               py={1}
               bg={useColorModeValue('gray.50', 'gray.800')}
               fontWeight={'400'}>
-              #MongoDB
+              #CSS
             </Badge>
             <Badge
               px={2}
               py={1}
               bg={useColorModeValue('gray.50', 'gray.800')}
               fontWeight={'400'}>
-              #NodeJS
+              #JAVASCRIPT
             </Badge>
           </Stack>
 
