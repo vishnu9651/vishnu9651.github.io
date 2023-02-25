@@ -11,8 +11,9 @@ import Slides from './TechSlider/Slider';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Contact from './components/Contact';
-import Tools from './ToolsUsed/Slider';
+// import Tools from './ToolsUsed/Slider';
 import MyComponent from './Nametypewriter/NameTypewriter';
+import Tools from './ToolsUsed/Tools';
 
 const confetti = {
   light: {
@@ -48,6 +49,9 @@ function App() {
     <AllProjects />
    <Box id="skills">
     <Slides />
+    </Box>
+    <Box id="skills">
+    <Tools />
     </Box>
     {/* <Tools /> */}
     <Calender />

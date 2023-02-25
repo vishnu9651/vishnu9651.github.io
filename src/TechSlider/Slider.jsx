@@ -26,11 +26,11 @@ const skills = [
     image: "https://miro.medium.com/max/1400/0*EitUXT-pqbaQSCTt.gif",
     heading: "React"
   },
-  {
-    id: 5,
-    image: "https://images.opencollective.com/chakra-ui-pro/61bd1dd/logo/256.png",
-    heading: "Chakra-UI"
-  },
+  // {
+  //   id: 5,
+  //   image: "https://images.opencollective.com/chakra-ui-pro/61bd1dd/logo/256.png",
+  //   heading: "Chakra-UI"
+  // },
   {
     id: 6,
     image: "https://www.nicepng.com/png/detail/383-3839776_node-js-icon-png.png",
@@ -41,11 +41,11 @@ const skills = [
     image: "https://pbs.twimg.com/profile_images/1452637606559326217/GFz_P-5e_400x400.png",
     heading: "MongoDB"
   },
-  {
-    id: 8,
-    image: "https://media.trustradius.com/product-logos/h3/JA/T1A83W5H538P.PNG",
-    heading: "Postman"
-  },
+  // {
+  //   id: 8,
+  //   image: "https://media.trustradius.com/product-logos/h3/JA/T1A83W5H538P.PNG",
+  //   heading: "Postman"
+  // },
   {
     id: 9,
     image: "https://cms-assets.tutsplus.com/uploads/users/34/posts/29738/preview_image/nodejs-expressjs.jpg",
@@ -99,7 +99,7 @@ const Slides = () => {
     ]
   };
   return (
-    <div style={{width:"100%", margin:"auto", marginTop:"120px"}} >
+    <div style={{width:"98%", margin:"auto", marginTop:"120px"}} >
       <Heading fontSize={{ base: "22px",sm:"32px", md: "40px", lg: "48px" }} style={{ display: "flex", gap: "10px", justifyContent: "center", marginBottom: "50px" }}><Text color="blue.500">Technical Skills</Text></Heading>
       <Slider {...settings}>
         {

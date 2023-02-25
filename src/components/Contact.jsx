@@ -1,7 +1,8 @@
-import React from 'react';
-import emailjs from '@emailjs/browser'
-import { useRef } from "react";
-import {
+
+ import React from 'react';
+ import emailjs from '@emailjs/browser'
+ import { useRef } from "react";
+ import {
     Box,
     Button,
     Flex,
@@ -82,9 +83,10 @@ import {
         justify="center"
         css={{
           backgroundImage: useColorModeValue(CONFETTI_LIGHT, CONFETTI_DARK),
-          backgroundAttachment: 'fixed',
+          backgroundAttachment: 'fixed'
         }}
-        id="contact">
+        >
+        
         <Box
           borderRadius="lg"
           m={{ base: 5, md: 16, lg: 10 }}
@@ -126,7 +128,7 @@ import {
                     />
                   </Tooltip>
   
-                  <Link href="https://github.com/vishnu9651">
+                  <Link  target="_blank" href="https://github.com/vishnu9651">
                     <IconButton
                       aria-label="github"
                       variant="ghost"
@@ -141,7 +143,7 @@ import {
                     />
                   </Link>
   
-                  <Link href="https://twitter.com/vishnu20098075">
+                  <Link  target="_blank" href="https://twitter.com/vishnu20098075">
                     <IconButton
                       aria-label="twitter"
                       variant="ghost"
@@ -155,7 +157,7 @@ import {
                     />
                   </Link>
   
-                  <Link href="https://www.linkedin.com/in/vishnu-upadhyay-387062162">
+                  <Link  target="_blank" href="https://www.linkedin.com/in/vishnu-upadhyay-387062162">
                     <IconButton
                       aria-label="linkedin"
                       variant="ghost"

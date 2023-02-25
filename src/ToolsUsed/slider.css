@@ -1,35 +1,6 @@
-.tool1{
-
-    
+.slick-slide {
+    margin: 0 15px;
 }
-.tool1 img{
- 
-    border: 1px soid red;
+.slick-list {
+    margin: 0 -10px;
 }
-
-
-.tool1:hover{
-    transform: translateZ(20px);
-}
-
-@media (max-width: 600px) {
-    .slide1 {
-
-margin-right: 25px;
-font-size: small;
-max-width: 100%;
-
-    }
-
-    .tool1 img{
-        max-width: 100%;
-        
-        
-        
-
-        
-        
-    }
-
-  }
-  

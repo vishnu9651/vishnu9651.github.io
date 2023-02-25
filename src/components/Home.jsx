@@ -31,8 +31,6 @@ import MyComponent from '../Nametypewriter/NameTypewriter';
           <Stack spacing={6} w={{base:"98%",sm:"98%",md:"98%",lg:"full" ,xl:"full"}}>
             <Heading fontSize={{ base: '3xl',sm:"3xl", md: '4xl', lg: '5xl' }}>
               <Text
-              
-            
                 >
                 Hi I am Vishnu
               </Text>
@@ -76,7 +74,7 @@ import MyComponent from '../Nametypewriter/NameTypewriter';
             marginTop={{base:"50px",sm:"20px",md:"20px",lg:"99px" ,xl:"99px"}}
             marginLeft={{base:"0%",sm:"25%",md:"25%",lg:"0%" ,xl:"0%"}}
             src={
-              'img1.png'
+              'img3.png'
             }
           />
         </Flex>
